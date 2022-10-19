@@ -1,9 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-padding-top: 50px;
 }
-
-nav{
+nav {
     height: 50px;
     background-color: #484848;
     color: #c8c8c8;
@@ -12,33 +12,40 @@ nav{
     justify-content: end;
     list-style-type: none;
     overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
 }
 nav li{
-    padding: 10px;
+ padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: orange
 }
 
-a{
-    text-decoration: none;
-    color: orange;
-}
 a:hover{
     color: #8961b5;
 }
-
 section{
     min-height: 480px;
     background-color: #484848;
-    color: orange;
+    color:orange;
     padding: 10px;
-    border: 2px dotted #8961b5;
+    border: 2px dotted #8961b5
 }
 
 .comando-git{
     padding: 5px;
-    font-size: 2rem;
-    border: 3px solid #c9c8c8;
+    font-size: 1.25rem;
+    border: 3px solid #9920a3;
+    background-color: #c9c8c8;
     color: #484848;
+}
+p{
+    padding: 5px;
+}
+
+.conteudo{
+    margin-top: 50px;
 }
