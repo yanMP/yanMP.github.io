@@ -73,3 +73,15 @@ p{
     border-radius: 100px;
     padding: 2px 5px;
 }
+
+#redes_sociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.redes_sociais>img{
+    width: 75%;
+}
