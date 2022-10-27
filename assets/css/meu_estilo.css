@@ -85,3 +85,15 @@ p{
 .redes_sociais>img{
     width: 75%;
 }
+
+
+.rodape{
+    background-color: #6a606b;
+    color: #ffffff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
